@@ -1,0 +1,17 @@
+.contacts{
+    padding: 50px 0;
+    .title {
+      @extend %title;
+    }
+    .text-muted {
+      @extend %text-muted;
+    }
+    label{
+      color: $primary-color !important;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+    button{
+      background:  $primary-color !important;
+    }
+  }

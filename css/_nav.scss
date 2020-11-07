@@ -1,0 +1,24 @@
+nav {
+    .navbar-brand {
+      font-size: 29px;
+      color: $primary-color !important;
+      font-weight: bold;
+      span:last-child {
+        color: $second-color;
+        font-weight: normal;
+      }
+    }
+    a.nav-link {
+      color: $primary-color !important;
+      font-weight: bold;
+      text-transform: uppercase;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .active {
+      a {
+        color: $second-color !important;
+      }
+    }
+  }

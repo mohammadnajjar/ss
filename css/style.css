@@ -1,0 +1,186 @@
+/* var */
+/* utilities */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.activities .title, .projects .title, .contacts .title {
+  font-size: 38px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  color: #08526d;
+  display: inline-block;
+  border-bottom: 3px solid #ec1c32;
+}
+
+.activities .text-muted, .projects .text-muted, .contacts .text-muted {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.activities h3, .projects h3 {
+  color: #08526d;
+  font-size: 24px;
+}
+
+.activities p, .projects p {
+  color: #989898;
+  font-size: 18px;
+}
+
+/* Start Upper Bar */
+.upper-bar {
+  background: #08526d;
+  color: #fff;
+  padding: 10px;
+}
+
+/* end Upper Bar */
+/* Start NavBar */
+nav .navbar-brand {
+  font-size: 29px;
+  color: #08526d !important;
+  font-weight: bold;
+}
+
+nav .navbar-brand span:last-child {
+  color: #ec1c32;
+  font-weight: normal;
+}
+
+nav a.nav-link {
+  color: #08526d !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a.nav-link:hover {
+  text-decoration: underline;
+}
+
+nav .active a {
+  color: #ec1c32 !important;
+}
+
+/* End NavBar */
+/* start Slider */
+.slider .carousel-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.slider .carousel-inner .title {
+  position: absolute;
+  z-index: 99;
+  color: #fff;
+  font-size: 60px;
+  max-width: 750px;
+  left: 100px;
+  line-height: 1.5;
+}
+
+.slider .carousel-inner .title span {
+  padding: 4px 10px;
+  background: #ec1c32;
+}
+
+.slider .carousel-inner .overlay {
+  position: absolute;
+  z-index: 3;
+  background: #08526d;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.slider .carousel-inner .carousel-one {
+  background: url(../images/slider01.jpg);
+  background-size: cover;
+}
+
+.slider .carousel-inner .carousel-two {
+  background: url(../images/slider02.jpg);
+  background-size: cover;
+}
+
+.slider .carousel-indicators li {
+  cursor: pointer;
+  border-radius: 10px;
+  height: 8px;
+}
+
+.slider .carousel-indicators .active {
+  background: #08526d;
+}
+
+/* End Slider */
+/* Start Activities */
+.activities {
+  padding: 50px 0;
+}
+
+.activities i {
+  color: #fff;
+  background: #ec1c32;
+  padding: 20px;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+/* End Activities */
+/* Start Projects */
+.projects {
+  background: #f8f9fa;
+  padding: 50px 0;
+}
+
+.projects .card {
+  margin-bottom: 3%;
+}
+
+.projects a.card-link {
+  color: #ec1c32;
+  font-weight: bold;
+}
+
+/* End Projects */
+/* Start Contacts */
+.contacts {
+  padding: 50px 0;
+}
+
+.contacts label {
+  color: #08526d !important;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.contacts button {
+  background: #08526d !important;
+}
+
+/* End Contacts */
+/* Start Footer */
+.footer {
+  background: #08526d !important;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.footer i {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+/* End footer */
+/*# sourceMappingURL=style.css.map */

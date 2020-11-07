@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+  %title {
+    font-size: 38px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    color: $primary-color;
+    display: inline-block;
+    border-bottom: 3px solid $second-color;
+  }
+  %text-muted {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  %card-title {
+    color: $primary-color;
+    font-size: 24px;
+  }
+  %card-para {
+    color: $text-m;
+    font-size: 18px;
+  }

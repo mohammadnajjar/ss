@@ -1,0 +1,22 @@
+.activities {
+    padding: 50px 0;
+    .title {
+      @extend %title;
+    }
+    .text-muted {
+      @extend %text-muted;
+    }
+    h3 {
+      @extend %card-title;
+    }
+    p {
+      @extend %card-para;
+    }
+    i {
+      color: $white-color;
+      background: $second-color;
+      padding: 20px;
+      font-size: 30px;
+      margin-bottom: 12px;
+    }
+  }

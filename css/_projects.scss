@@ -1,0 +1,23 @@
+.projects{
+    background: $bg-p;
+    padding: 50px 0;
+    .card{
+        margin-bottom: 3%;
+    }
+    .title {
+      @extend %title;
+    }
+    .text-muted {
+      @extend %text-muted;
+    }
+    h3 {
+      @extend %card-title;
+    }
+    p {
+      @extend %card-para;
+    }
+    a.card-link{
+      color:$second-color;
+      font-weight: bold;
+    }
+  }
